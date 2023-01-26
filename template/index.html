@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainfall Prediction</title>
+    <link rel="stylesheet" href={{url_for('static',filename='style1.css')}}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body bgcolor="#8c51bf">
+  
+    <section align="center"> 
+      
+    </div align="center">
+      <div class="content">
+        <h1 align="center">  Rainfall Prediction</h1><br><br><br>
+        <div class="info" align="center">
+          <a href="#" class="info-btn">Home</a>&nbsp;       
+          <a href="#about" class="info-btn">About </a>&nbsp;
+          <a href="#info" class="info-btn">Models used</a>&nbsp;
+          <a href="#dashboard" class="info-btn">Visualization</a><br><br><br> 
+          <a href="/predict" class="info-btn">Predictor</a><br><br><br>
+          <h2>Predict Rainfall <br><span>Save Life</span></h2>
+          <p> "The most important thing that most people get from the news is the prediction of the following day's weather, which most people are usually able to predict correctly by themselves."
+            <br>― Mokokoma Mokhonoana
+            </p>
+          <a href="#about" class="info-btn">More info</a>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="about">
+      <h2>About Rainfall Prediction</h2>
+      <p class="about-content" style="text-align: center;"><pre>
+      -->Rain Prediction is a web app which has a Machine Learning model running at the back. 
+      -->The purpose of developing this app is to predict whether it will rain the next day or not. 
+      -->This model is based on the Rain Prediction in Australia dataset. 
+      <b>More than 80% of Australia has an annual rainfall of less than 600 mm which is less among the all continents other 
+      than Antartica which recieves less rainfall.</b>
+      A place inland near Lake Eyre would only receive 81 mm of rain annually.The average annual rainfall in the Australian
+      desert is low, ranging from 81 to 250 mm.Thunderstorms are relatively common in the region, with an annual average of 
+      15 to 20 thunderstorms.The southern parts of Australia get the usual westerly winds and rain-bearing cold fronts that
+      come when high - pressuresystems move towards northern Australia during winter. Cold snaps may bring frosts inland, 
+      though temperatures near the coast are mild or near mild all year round.Summers in southern Australia are generally 
+      dry and hot with coastal sea breezes.During a lengthy dry spell, hot and dry winds from the interior can cause bushfires
+      in some southern and eastern states,though most commonly Victoria and New South Wales.The tropical areas of northern 
+      Australia have a wet summer because of the monsoon.During "the wet", typically October to April, humid north-westerly 
+      winds bring showers and thunderstorms.Occasionally,tropical cyclones can bring heavy rainfall to tropical coastal regions,
+      which is also likely to reach further inland. 
+       </pre></p>
+    </section>
+
+    <section id="dashboard">
+      <pre>
+      <h2>Dashboard</h2>
+      <p>
+        The usage of dashboards like these are to have a better understanding about the dataset 
+        and also to bring some beautiful insights.Here  images of the dashboard have been attached , 
+        in order to have a good visualizations.
+</p>
+      
+      <div>
+        <img src="../static/1.png" alt="1"><br> 
+        <img src="../static/4.png" alt="4"><br>
+        <img src="../static/5.png" alt="5"><br>
+        <img src="../static/6.png" alt="6"><br>
+        <img src="../static/8.png" alt="8"><br>
+        <img src="../static/9.png" alt="9"></pre>
+      </div>
+    </section>
+    
+    <section id="info">
+      
+      <div>
+        <h2>Models Used</h2>
+        <p class="about-content"> <pre>
+          Different types of models were tried like 
+          --> catboost, 
+          --> random forest, 
+          --> logistic regression, 
+          --> xgboost, 
+          --> support vector machines, 
+          --> knn, 
+          --> naive bayes.
+          Out of these catboost, random forest and support vector machines were top 3
+          The conclusion were made using classification metrics. roc curve and auc score </p>
+        </pre>
+      </div>
+    </section>
+
+    <footer>
+       
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/kavya-sree-r-j/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/KavyaSreeRJ09"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
