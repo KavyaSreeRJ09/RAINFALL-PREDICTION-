@@ -26,7 +26,6 @@ An web application on predicting whether it will rain tomorrow or not by using t
 * Now for the final step. Run the app
 * python app.py
 
-WORK FLOW
 
 # Data Collection: 
 
