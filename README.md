@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/117114012/214919392-73376343-d98c-4d6e-8b40-c88b426067bf.png)
+
 INTRODUCTION:
 
 An web application on predicting whether it will rain tomorrow or not by using the Rainfall in Australia dataset. This project is tested over lot of ml models like catboost, xgboost, random forest, support vector classifier, knn, naive base, logistic regression. Out of these models catboost performed very well giving an AUC score around and ROC score of 89 far better than others.
